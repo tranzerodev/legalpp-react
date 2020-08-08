@@ -1,0 +1,20 @@
+.modal {
+  text-align: center;
+  .modal-dialog.document-modal, .modal-dialog.note-modal {
+    margin-top: $header-height;
+    max-width: none;
+    display: inline-block;
+    padding: 16px;
+
+    .modal-header {
+      position: absolute;
+      width: 100%;
+      border: none;
+      z-index: 9999;
+    }
+  }
+}
+
+.ant-notification {
+  z-index: 9999;
+}

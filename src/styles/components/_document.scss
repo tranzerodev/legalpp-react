@@ -1,0 +1,84 @@
+.document {
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  height: 248px;
+  padding: 6px 9PX;
+  position: relative;
+  text-align: center;
+  width: 192px;
+  transition: all 0s;
+
+  &:hover {
+    color: $text-secondary;
+
+    .overlay {
+      background: rgba($bg-third, .8);
+    }
+
+    .document__icon {
+      border-color: $border-secondary;
+      color: $text-secondary;
+      transform: translate(-50%, -50%) rotateY(0deg);
+    }
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+
+  .empty {
+    color: $text-secondary;
+  }
+
+  .back-image {
+    object-fit: contain;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba($bg-fifth, .05);
+
+    &:hover {
+      background: rgba($bg-third, .8);
+    }
+  }
+
+  .document__title {
+    font-size: 16px;
+    font-weight: $medium;
+    padding: 16px 8px;
+    top: 12px;
+    left: 8px;
+    right: 8px;
+    position: absolute;
+  }
+
+  .document__icon {
+    border: 2px solid;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 28px;
+    left: 50%;
+    line-height: 48px;
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    width: 48px;
+    height: 48px;
+    transition: transform 0.6s;
+  }
+
+  .document__description {
+    bottom: 24px;
+    font-size: $h8;
+    font-weight: $regular;
+    left: 16px;
+    position: absolute;
+    right: 16px;
+  }
+}

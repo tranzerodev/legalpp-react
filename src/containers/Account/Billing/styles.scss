@@ -1,0 +1,111 @@
+@import "src/styles/variables/index";
+
+$card-height: 130px;
+
+.lg-billing {
+  .lg-cards {
+    // padding: 8px auto;
+    padding: 8px 16px;
+
+    .lg-card {
+      border: 1px solid $border-third;
+      border-radius: 8px;
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
+
+      // width: 240px;
+      width: 100%;
+      height: $card-height;
+      transition: border 0.2s;
+
+      &:hover {
+        border-color: $border-primary;
+
+        .lg-card-action {
+          visibility: visible;
+          opacity: 1.0;
+          right: 10px;
+          top: 8px;
+        }
+      }
+
+      .lg-card-action {
+        visibility: hidden;
+        opacity: 0.0;
+        position: absolute;
+        right: -10px;
+        top: 8px;
+        cursor: pointer;
+
+        i {
+          color: $text-third;
+        }
+        transition: right 0.2s;
+      }
+
+      .lg-card-brand {
+        position: absolute;
+        top: 16px;
+        left: 12px;
+        width: 60px;
+        object-fit: contain;
+      }
+
+      .lg-card-number {
+        position: absolute;
+        font-size: $h6;
+        top: 70px;
+        right: 16px;
+
+        strong {
+          font-family: 'Courier New', Courier, monospace;
+          font-size: $h6;
+        }
+      }
+
+      .lg-card-expire {
+        position: absolute;
+        font-size: $h7;
+        bottom: 10px;
+        right: 16px;
+      }
+    }
+
+    .lg-card--add {
+      cursor: pointer;
+      color: $text-gray;
+      font-size: $h6;
+      transition: color 0.3s, border 0.3s;
+      
+      .lg-card-content {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        i {
+          font-size: $h3;
+          color: $text-gray;
+          transition: color 0.3s, border 0.3s;
+        }
+      }
+
+      &:hover {
+        border-color: $border-primary;
+        color: $text-third;
+
+        .lg-card-content {
+          i {
+            color: $text-third;
+          }
+        }
+      }
+
+    }
+  }
+}

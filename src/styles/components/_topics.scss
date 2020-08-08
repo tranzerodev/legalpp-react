@@ -1,0 +1,113 @@
+.legaltopics, .legalforms {
+
+  .page-header {
+    height: 310px;
+    position: relative;
+    color: $text-secondary;
+
+    .back-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .overlay {
+      position: absolute;
+      background: rgba($bg-third, 0.7);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .title {
+      margin-top: 56px;
+      padding: 2px 0;
+      font-size: $h0;
+      font-weight: $bold;
+      text-align: center;
+    }
+    
+    .description {
+      margin-top: 8px;
+      font-size: $h4;
+      font-weight: $regular;
+      text-align: center;
+    }
+    
+    .content {
+      margin-top: 32px;
+      font-size: $h5;
+      font-weight: $regular;
+      text-align: center;
+    }
+    
+    .content .icon {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 8px;
+      object-fit: cover;
+    }
+
+    @media (max-width: 590px) {
+      .description {
+        font-size: $h4;
+      }
+    
+      .content {
+        font-size: $h6;
+      }
+    
+      .content .icon {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+
+  .description-container {
+    padding: 24px;
+    text-align: center;
+
+    .description {
+      display: inline-block;
+      font-size: $h2;
+      font-weight: $bold;
+      text-align: center;
+      padding: 12px 40px;
+      color: $text-primary;
+      border-bottom: 2px solid $text-gray;
+    }
+  }
+
+  .topics-container {
+
+    margin-bottom: 24px;
+
+    .category {
+      margin: 8px 0;
+
+      .category-title {
+        display: inline-block;
+        font-size: $h3;
+        font-weight: $bold;
+        padding: 4px 16px 4px 0;
+        margin: 8px 0;
+        border-bottom: 4px solid $border-primary;
+      }
+
+      .topic {
+        color: $text-primary;
+        cursor: pointer;
+        display: block;
+        font-weight: $medium;
+        font-size: $h4;
+        margin: 4px 0;
+
+        &:hover {
+          color: $text-third;
+        }
+      }
+    }
+  }
+}

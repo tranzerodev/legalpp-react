@@ -1,0 +1,120 @@
+@import "src/styles/variables/index";
+
+.lg-profile {
+  padding: 8px;
+  position: relative;
+  min-height: calc(100vh - #{$header-height} - #{$subnav-height});
+
+  * {
+    transition: all 0.1s;
+  }
+}
+
+.lg-profile-block {
+  margin: 8px;
+  padding: 8px 24px;
+  border: 1px solid $border-third;
+  position: relative;
+
+  .lg-profile-block-header {
+    padding: 8px 16px;
+    border-bottom: 3px solid $border-primary;
+
+    .lg-title {
+      font-size: $h3;
+      font-weight: $medium;
+    }
+  }
+
+  .lg-profile-info {
+    cursor: pointer;
+    font-size: $h6;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    }
+
+    .lg-empty {
+      color: $text-sixth;
+      font-size: $h7;
+    }
+
+    i {
+      font-size: $h4;
+      color: $text-third;
+      margin-right: 8px;
+    }
+  }
+
+  .lg-profile-info-name {
+    font-size: $h3;
+    font-weight: $medium;
+  }
+
+  .lg-profile-info-editor {
+    font-size: $h6;
+
+    .lg-title {
+      color: $text-third;
+      margin-bottom: 6px;
+    }
+
+    input {
+      display: inline-block;
+      padding: 8px 12px;
+      width: 100%;
+      height: 36px;
+      background: #ffffff;
+      border: 1.5px solid #cacfd6;
+      border-radius: 4px;
+      font-size: $h6;
+      font-weight: $medium;
+      margin-bottom: 8px;
+      color: $text-primary;
+
+      &::placeholder {
+        font-weight: $regular;
+        font-size: $h7;
+      }
+
+      &:hover, &:active, &:focus {
+        border-color: $border-primary;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+$avatar-size: 160px;
+.lg-profile-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: $avatar-size;
+  height: $avatar-size;
+  border-radius: 50%;
+  border: 2px solid $border-primary;
+
+  transition: all 0s;
+
+  i {
+    font-size: 80px;
+    color: $text-third;
+  }
+}
+
+.lg-profile-edit-block {
+  align-items: center;
+  margin: 8px;
+
+  label {
+    font-size: $h7;
+    margin: 0px;
+  }
+}

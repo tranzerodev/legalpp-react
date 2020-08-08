@@ -1,0 +1,49 @@
+.lg-pure-input {
+  &:focus {
+    outline: none;
+  }
+}
+
+.lg-input {
+  @extend .lg-pure-input;
+  flex: 1;
+  color: $text-sixth;
+  font-size: $h6;
+  padding: 4px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, .2);
+
+  &:focus, &:active {
+    border: 1px solid $border-primary;
+    box-shadow: 0px 0px 3px rgba($border-primary, .6);
+  }
+}
+
+a.lg-show-description:active {
+  // display: none;
+  color:red;
+}
+
+description {
+  display: none;
+  margin: 8px;
+  color: rgba($text-primary, .6);
+  white-space: normal;
+  text-indent: 0;
+
+  &:target {
+    display: block;
+  }
+
+  & > p {
+    padding: 8px;
+  }
+
+  a[href="#"] {
+    display: block;
+    margin: 4px;
+    font-size: $h7;
+    color: #04b2fb;
+    opacity: 1;
+  }
+}

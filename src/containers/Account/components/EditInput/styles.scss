@@ -1,0 +1,42 @@
+@import "styles/variables/index";
+
+.lg-edit-input {
+  flex: 1 0 auto;
+  display: flex;
+  // align-content: space-between;
+  align-items: center;
+}
+
+.lg-edit-input__content {
+  flex: 1;
+  color: $text-sixth;
+  font-size: $h6;
+  padding: 4px 12px;
+}
+
+.lg-edit-input__input {
+  @extend .lg-edit-input__content;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, .2);
+
+  &:focus {
+    border: 1px solid $border-primary;
+    box-shadow: 0px 0px 3px rgba($border-primary, .6);
+  }
+}
+
+.lg-edit-input__actions {
+  // padding: 16px;
+  text-align: right;
+  padding: 0 8px;
+}
+
+.lg-edit-input__link {
+  color: $text-third;
+  cursor: pointer;
+  font-size: $h7;
+
+  &:hover {
+    color: rgba($text-third, .6);
+  }
+}

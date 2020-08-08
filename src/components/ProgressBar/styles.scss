@@ -1,0 +1,17 @@
+@import "src/styles/variables/index";
+
+$progressbar-height: 8px;
+
+.lm-progressbar {
+  background: $bg-fifth;
+  display: inline-block;
+  height: $progressbar-height;
+  padding: 0;
+}
+
+.lm-progressbar__progress {
+  background: $bg-third;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}

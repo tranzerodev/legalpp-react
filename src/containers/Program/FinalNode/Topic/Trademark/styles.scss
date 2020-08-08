@@ -1,0 +1,19 @@
+@import "styles/variables/index";
+
+.lg-final-trademark {
+  text-align: center;
+
+  .final-body {
+    text-align: center;
+  }
+
+  .lg-description {
+    font-size: ($h6 + $h5) / 2;
+    font-weight: 500;
+  }
+
+  .lg-footnote {
+    font-size: $h8;
+    color: $bg-sixth;
+  }
+}

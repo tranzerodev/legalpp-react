@@ -1,0 +1,14 @@
+@import "styles/variables/index";
+
+.lg-final-choice-entity {
+  .lg-button {
+    font-size: $h6;
+    // padding: 30px;
+    margin: 0 12px;
+  }
+
+  .lg-description {
+    font-size: $h5;
+    font-weight: 500;
+  }
+}

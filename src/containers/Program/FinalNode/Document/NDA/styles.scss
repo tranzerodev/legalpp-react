@@ -1,0 +1,947 @@
+@font-face
+	{font-family:Helvetica;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Courier;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Malgun Gothic";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:Times;
+	panose-1:0 0 5 0 0 0 0 2 0 0;}
+@font-face
+	{font-family:"\@Malgun Gothic";}
+
+.lg-nda {   
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:Helvetica;}
+h2
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:Helvetica;
+	font-style:italic;}
+p.MsoIndex1, li.MsoIndex1, div.MsoIndex1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoIndex2, li.MsoIndex2, div.MsoIndex2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:20.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoIndex3, li.MsoIndex3, div.MsoIndex3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:30.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoIndex4, li.MsoIndex4, div.MsoIndex4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:40.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoIndex5, li.MsoIndex5, div.MsoIndex5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:50.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-10.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:48.2pt;
+	margin-bottom:.0001pt;
+	text-indent:-48.2pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:75.7pt;
+	margin-bottom:.0001pt;
+	text-indent:-36.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:97.8pt;
+	margin-bottom:.0001pt;
+	text-indent:-1.0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:127.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-39.7pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:155.95pt;
+	margin-bottom:.0001pt;
+	text-indent:-39.7pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:178.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-45.35pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.MsoNormalIndent, li.MsoNormalIndent, div.MsoNormalIndent
+	{margin-top:0cm;
+	margin-right:36.0pt;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:14.4pt;
+	line-height:11.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+span.MsoFootnoteReference
+	{color:fuchsia;
+	font-weight:bold;
+	vertical-align:super;}
+p.MsoMacroText, li.MsoMacroText, div.MsoMacroText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:11.35pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Courier;}
+p.ALLCAPS, li.ALLCAPS, div.ALLCAPS
+	{mso-style-name:"ALL CAPS";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Times;
+	text-transform:uppercase;}
+p.Chapter, li.Chapter, div.Chapter
+	{mso-style-name:"Chapter \#";
+	margin-top:48.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Times;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.ChapterContents, li.ChapterContents, div.ChapterContents
+	{mso-style-name:"Chapter Contents";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	text-indent:11.4pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.ChapterContentsRule, li.ChapterContentsRule, div.ChapterContentsRule
+	{mso-style-name:"Chapter Contents Rule";
+	margin-top:0cm;
+	margin-right:90.0pt;
+	margin-bottom:12.0pt;
+	margin-left:102.0pt;
+	text-align:center;
+	text-indent:25.6pt;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.ChapterTitle, li.ChapterTitle, div.ChapterTitle
+	{mso-style-name:"Chapter Title";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:48.0pt;
+	margin-left:0cm;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:Times;
+	font-weight:bold;}
+p.ChapterTOC, li.ChapterTOC, div.ChapterTOC
+	{mso-style-name:"Chapter TOC";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Times;}
+p.Head12ptCentered, li.Head12ptCentered, div.Head12ptCentered
+	{mso-style-name:"Head 12pt Centered";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.HeadA, li.HeadA, div.HeadA
+	{mso-style-name:"Head A";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.HeadB, li.HeadB, div.HeadB
+	{mso-style-name:"Head B";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:54.0pt;
+	text-indent:-42.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.HeadC, li.HeadC, div.HeadC
+	{mso-style-name:"Head C";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:24.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.Helvetica-7pt, li.Helvetica-7pt, div.Helvetica-7pt
+	{mso-style-name:Helvetica-7pt;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:7.0pt;
+	font-family:Helvetica;}
+p.Helvetica-9pt, li.Helvetica-9pt, div.Helvetica-9pt
+	{mso-style-name:"Helvetica-9 pt";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:Helvetica;}
+p.Listhead, li.Listhead, div.Listhead
+	{mso-style-name:"List head";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.ListSpaced, li.ListSpaced, div.ListSpaced
+	{mso-style-name:"List Spaced";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:20.15pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalCentered, li.NormalCentered, div.NormalCentered
+	{mso-style-name:"Normal Centered";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalFlush, li.NormalFlush, div.NormalFlush
+	{mso-style-name:"Normal Flush";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalLeft, li.NormalLeft, div.NormalLeft
+	{mso-style-name:"Normal Left";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalRight, li.NormalRight, div.NormalRight
+	{mso-style-name:"Normal Right";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalSpaced, li.NormalSpaced, div.NormalSpaced
+	{mso-style-name:"Normal Spaced";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:18.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalSpacedCentered, li.NormalSpacedCentered, div.NormalSpacedCentered
+	{mso-style-name:"Normal Spaced Centered";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:18.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalSpacedFlush, li.NormalSpacedFlush, div.NormalSpacedFlush
+	{mso-style-name:"Normal Spaced Flush";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalSpacedHanging, li.NormalSpacedHanging, div.NormalSpacedHanging
+	{mso-style-name:"Normal Spaced Hanging";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:70.9pt;
+	margin-bottom:.0001pt;
+	text-indent:-70.9pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.Release, li.Release, div.Release
+	{mso-style-name:"Release \#";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:Times;}
+p.TabTable1, li.TabTable1, div.TabTable1
+	{mso-style-name:"Tab Table 1";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:11.35pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.TabTable2, li.TabTable2, div.TabTable2
+	{mso-style-name:"Tab Table 2";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:11.35pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.TabTable3, li.TabTable3, div.TabTable3
+	{mso-style-name:"Tab Table 3";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.TabTable4, li.TabTable4, div.TabTable4
+	{mso-style-name:"Tab Table 4";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.TabTable4Head, li.TabTable4Head, div.TabTable4Head
+	{mso-style-name:"Tab Table 4 Head";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.TableHead, li.TableHead, div.TableHead
+	{mso-style-name:"Table Head";
+	margin-top:12.0pt;
+	margin-right:5.05pt;
+	margin-bottom:0cm;
+	margin-left:5.05pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:11.4pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.TableHeadSubRule, li.TableHeadSubRule, div.TableHeadSubRule
+	{mso-style-name:"Table Head SubRule";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:Times;}
+p.TableText, li.TableText, div.TableText
+	{mso-style-name:"Table Text";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.TableTextCentered, li.TableTextCentered, div.TableTextCentered
+	{mso-style-name:"Table Text Centered";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.TableTextRight, li.TableTextRight, div.TableTextRight
+	{mso-style-name:"Table Text Right";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.TableTextRuleBottom, li.TableTextRuleBottom, div.TableTextRuleBottom
+	{mso-style-name:"Table Text Rule Bottom";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.TableTextRuleTop, li.TableTextRuleTop, div.TableTextRuleTop
+	{mso-style-name:"Table Text Rule Top";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.Textcontline, li.Textcontline, div.Textcontline
+	{mso-style-name:"Text cont\. line";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	text-indent:11.4pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-style:italic;}
+p.TOCChapter, li.TOCChapter, div.TOCChapter
+	{mso-style-name:"TOC Chapter \#";
+	margin-top:36.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Times;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.TOCChapterTitle, li.TOCChapterTitle, div.TOCChapterTitle
+	{mso-style-name:"TOC Chapter Title";
+	margin-top:26.0pt;
+	margin-right:0cm;
+	margin-bottom:18.0pt;
+	margin-left:0cm;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:16.0pt;
+	font-family:Times;
+	font-weight:bold;}
+p.TOCSectionHead, li.TOCSectionHead, div.TOCSectionHead
+	{mso-style-name:"TOC Section Head";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.55pt;
+	margin-bottom:.0001pt;
+	text-indent:-42.55pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.TOCSubSection, li.TOCSubSection, div.TOCSubSection
+	{mso-style-name:"TOC Sub Section";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:119.05pt;
+	margin-bottom:.0001pt;
+	text-indent:-119.05pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.TOCText, li.TOCText, div.TOCText
+	{mso-style-name:"TOC Text";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:72.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-72.0pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Times;}
+p.TOCTitle, li.TOCTitle, div.TOCTitle
+	{mso-style-name:"TOC Title";
+	margin-top:48.0pt;
+	margin-right:0cm;
+	margin-bottom:48.0pt;
+	margin-left:0cm;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:16.0pt;
+	font-family:Times;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.Volume, li.Volume, div.Volume
+	{mso-style-name:"Volume \#";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:18.0pt;
+	margin-left:0cm;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Times;
+	font-weight:bold;}
+p.Author, li.Author, div.Author
+	{mso-style-name:Author;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Times;
+	font-weight:bold;}
+p.BookSubTitle, li.BookSubTitle, div.BookSubTitle
+	{mso-style-name:"Book Sub Title";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.BookTitle1, li.BookTitle1, div.BookTitle1
+	{mso-style-name:"Book Title1";
+	margin-top:48.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:26.0pt;
+	font-family:Times;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.CIP-1, li.CIP-1, div.CIP-1
+	{mso-style-name:CIP-1;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.CIP-2, li.CIP-2, div.CIP-2
+	{mso-style-name:CIP-2;
+	margin-top:0cm;
+	margin-right:8.65pt;
+	margin-bottom:0cm;
+	margin-left:8.65pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.CIP-3, li.CIP-3, div.CIP-3
+	{mso-style-name:CIP-3;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	text-transform:uppercase;}
+p.CIPdata, li.CIPdata, div.CIPdata
+	{mso-style-name:CIPdata;
+	margin-top:32.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.ContentsTitle, li.ContentsTitle, div.ContentsTitle
+	{mso-style-name:"Contents Title";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:24.0pt;
+	margin-left:0cm;
+	text-align:center;
+	text-indent:11.4pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.CopyRight, li.CopyRight, div.CopyRight
+	{mso-style-name:CopyRight;
+	margin-top:300.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Times;}
+p.Dedication, li.Dedication, div.Dedication
+	{mso-style-name:Dedication;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Times;
+	font-weight:bold;}
+p.DedicationHead, li.DedicationHead, div.DedicationHead
+	{mso-style-name:"Dedication Head";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Times;
+	font-weight:bold;}
+p.DedicationText, li.DedicationText, div.DedicationText
+	{mso-style-name:"Dedication Text";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:14.4pt;
+	line-height:11.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.Extract, li.Extract, div.Extract
+	{mso-style-name:Extract;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:12.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.ExtractBottom, li.ExtractBottom, div.ExtractBottom
+	{mso-style-name:"Extract Bottom";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:12.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.ExtractFlush, li.ExtractFlush, div.ExtractFlush
+	{mso-style-name:"Extract Flush";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:12.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.ExtractFlushTop, li.ExtractFlushTop, div.ExtractFlushTop
+	{mso-style-name:"Extract Flush Top";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.ExtractTop, li.ExtractTop, div.ExtractTop
+	{mso-style-name:"Extract Top";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.ListHanging, li.ListHanging, div.ListHanging
+	{mso-style-name:"List Hanging";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.4pt;
+	margin-bottom:.0001pt;
+	text-indent:11.4pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.Listhangingbottom, li.Listhangingbottom, div.Listhangingbottom
+	{mso-style-name:"List hanging bottom";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:14.4pt;
+	text-indent:11.4pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.ListHangingTop, li.ListHangingTop, div.ListHangingTop
+	{mso-style-name:"List Hanging Top";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:23.75pt;
+	margin-bottom:.0001pt;
+	text-indent:-9.35pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalSpacedBottom, li.NormalSpacedBottom, div.NormalSpacedBottom
+	{mso-style-name:"Normal Spaced Bottom";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-indent:18.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.HeadD, li.HeadD, div.HeadD
+	{mso-style-name:"Head D";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:90.0pt;
+	text-indent:-54.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-style:italic;}
+p.HeadE, li.HeadE, div.HeadE
+	{mso-style-name:"Head E";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:90.0pt;
+	text-indent:-42.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-style:italic;}
+p.HeadF, li.HeadF, div.HeadF
+	{mso-style-name:"Head F";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:72.0pt;
+	text-indent:60.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-style:italic;}
+p.ListHangingTop2, li.ListHangingTop2, div.ListHangingTop2
+	{mso-style-name:"List Hanging Top 2";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:38.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-9.35pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.ListHangingTop3, li.ListHangingTop3, div.ListHangingTop3
+	{mso-style-name:"List Hanging Top 3";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:52.55pt;
+	margin-bottom:.0001pt;
+	text-indent:-9.35pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalSpacedRight, li.NormalSpacedRight, div.NormalSpacedRight
+	{mso-style-name:"Normal Spaced Right";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	text-indent:18.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalSpacedTab, li.NormalSpacedTab, div.NormalSpacedTab
+	{mso-style-name:"Normal Spaced Tab";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:25.2pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalSpacedTab2, li.NormalSpacedTab2, div.NormalSpacedTab2
+	{mso-style-name:"Normal Spaced Tab 2";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:36.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalTab, li.NormalTab, div.NormalTab
+	{mso-style-name:"Normal Tab";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:25.2pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalTab2, li.NormalTab2, div.NormalTab2
+	{mso-style-name:"Normal Tab 2";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:36.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalTab3, li.NormalTab3, div.NormalTab3
+	{mso-style-name:"Normal Tab 3";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:46.8pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalTab4, li.NormalTab4, div.NormalTab4
+	{mso-style-name:"Normal Tab 4";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:57.6pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalTab5, li.NormalTab5, div.NormalTab5
+	{mso-style-name:"Normal Tab 5";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:68.4pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.Helvetica-6pt, li.Helvetica-6pt, div.Helvetica-6pt
+	{mso-style-name:"Helvetica-6 pt";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:6.0pt;
+	font-family:Helvetica;}
+p.NormalSpacedTop, li.NormalSpacedTop, div.NormalSpacedTop
+	{mso-style-name:"Normal Spaced Top";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.a, li.a, div.a
+	{
+	margin-top:0cm;
+	margin-right:127.6pt;
+	margin-bottom:12.0pt;
+	margin-left:127.6pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.ExtractFlushNoSpace, li.ExtractFlushNoSpace, div.ExtractFlushNoSpace
+	{mso-style-name:"Extract Flush No Space";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.ExtractNoSpace, li.ExtractNoSpace, div.ExtractNoSpace
+	{mso-style-name:"Extract No Space";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.NormalSpaceAB, li.NormalSpaceAB, div.NormalSpaceAB
+	{mso-style-name:"Normal Space A\/B";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-indent:12.0pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+}

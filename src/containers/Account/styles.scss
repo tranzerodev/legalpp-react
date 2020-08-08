@@ -1,0 +1,44 @@
+@import "src/styles/variables/index";
+
+.account {
+  padding-top: $subnav-height;
+
+  .navbar {
+    width: 100%;
+    background: $bg-primary;
+    position: fixed;
+    top: $header-height;
+    height: $subnav-height;
+    border-bottom: 1px solid $border-third;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    z-index: 998;
+
+    * {
+      transition: all 0.2s;
+    }
+
+    .navs {
+      .nav-item {
+        cursor: pointer;
+        display: inline-block;
+        height: $subnav-height;
+        line-height: $subnav-height;
+        color: $text-third;
+        // font-weight: $medium;
+        font-size: $h6;
+        padding: 0 12px;
+
+        &:hover {
+          background: rgba($bg-third, .3);
+        }
+
+        &.selected {
+          background: $bg-third;
+          color: $text-secondary;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "styles/variables/index";
+
+.lg-tab-button {
+  color: $text-sixth;
+  font-weight: $medium;
+  cursor: pointer;
+  padding: 2px 2px;
+
+  &:hover {
+    color: $text-third;
+  }
+}
+
+.lg-tab-button--active {
+  color: $text-third;
+  border-bottom: 3px solid $border-primary;
+}

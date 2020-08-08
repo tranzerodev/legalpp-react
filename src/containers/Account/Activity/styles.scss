@@ -1,0 +1,114 @@
+@import "src/styles/variables/index";
+
+.lg-activities {
+  padding: 8px;
+  position: relative;
+  min-height: calc(100vh - #{$header-height} - #{$subnav-height});
+}
+
+.lg-activity-block {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 24px;
+  margin: 8px;
+  border: 1px solid $border-third;
+}
+
+.lg-activity__link {
+  color: $text-third;
+  cursor: pointer;
+  font-size: $h7;
+
+  &:hover {
+    color: rgba($text-third, .6);
+  }
+}
+
+/**
+ * New Document
+ */
+.lg-new-activity {
+  @extend .lg-activity-block;
+  cursor: pointer;
+}
+
+.lg-new-activity__icons {
+  width: 96px;
+  text-align: center;
+  margin-right: 16px;
+
+  >.icon {
+    color: $text-third;
+    font-size: $h2;
+  }
+}
+
+.lg-new-activity__text {
+  color: $text-primary;
+  font-size: $h5;
+  font-weight: $medium;
+}
+
+/**
+ * Document Card
+ */
+.lg-activity-card {
+  @extend .lg-activity-block;
+}
+
+.lg-activity-card__view {
+  width: 96px;
+  text-align: center;
+  display: flex;
+  margin-right: 16px;
+  flex-direction: column;
+  justify-content: center;
+
+  >.icon {
+    color: $text-third;
+    font-size: $h0 * 1.4;
+    margin: 4px;
+    -webkit-text-stroke: 2px white; // white is the background color of box.
+  }
+}
+
+.lg-activity-card__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.lg-activity-card__title {
+  color: $text-primary;
+  font-size: $h6;
+  font-weight: $medium;
+}
+
+.lg-activity-card__description {
+  color: $text-sixth;
+  font-size: $h7;
+}
+
+.lg-activity-card__progress {
+  color: $text-third;
+  font-size: $h7;
+}
+
+.lg-activity-card__actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+/**
+ * Document Actions
+ */
+
+.lg-activity-actions {
+  @extend .lg-activity-block;
+  border: none;
+  padding: 16px 0;
+  justify-content: flex-end;
+}

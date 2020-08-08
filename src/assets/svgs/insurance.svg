@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="51px" viewBox="0 0 39 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-A-Copy" transform="translate(-778.000000, -3367.000000)" stroke="#00B1FE">
+            <g id="Group-15" transform="translate(779.000000, 3368.000000)">
+                <rect id="Rectangle-4" stroke-width="1.5" fill="#FFFFFF" x="0" y="5" width="37" height="44" rx="1"></rect>
+                <rect id="Rectangle-4-Copy" stroke-width="1.5" fill="#FFFFFF" x="4" y="8" width="29" height="37" rx="1"></rect>
+                <path d="M9,5.6 L12.4545455,5.6 C12.9314886,5.6 13.3181818,5.1821 13.3181818,4.66666667 C13.3209886,2.09066667 15.2527273,0.00303333333 17.6363636,0 L19.3636364,0 C21.7472727,0.00303333333 23.6790114,2.09066667 23.6818182,4.66666667 C23.6818182,5.1821 24.0685114,5.6 24.5454545,5.6 L28,5.6 L28,9.33333333 L9,9.33333333 L9,5.6 Z" id="Path" stroke-width="1.5" fill="#FFFFFF"></path>
+                <g id="Group-14" transform="translate(12.000000, 21.000000)" fill="#00B1FE">
+                    <rect id="Rectangle-5" x="4.5" y="0.5" width="5" height="13" rx="1"></rect>
+                    <rect id="Rectangle-5-Copy" transform="translate(7.000000, 7.000000) rotate(-90.000000) translate(-7.000000, -7.000000) " x="4.5" y="0.5" width="5" height="13" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

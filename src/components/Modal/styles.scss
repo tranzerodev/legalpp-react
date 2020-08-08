@@ -1,0 +1,61 @@
+@import "styles/variables/index";
+
+.lg-modal {
+  text-align: left;
+}
+
+.lg-modal__header {
+  color: $text-secondary;
+  background-color: $bg-third;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: 1px solid rgba($border-primary, .3);
+  font-size: $h5;
+  font-weight: $medium;
+  padding: 8px 24px;
+  position: relative;
+}
+
+.lg-modal__close-button {
+  position: absolute;
+  right: 12px;
+  top: 16px;
+  font-size: $h6;
+  
+  cursor: pointer;
+
+  &:hover {
+    text-shadow: 0px 0px 6px rgba($border-secondary, .5);
+  }
+
+  &:active {
+    text-shadow: none;
+  }
+}
+
+.lg-modal__body {
+  padding: 16px 24px;
+  font-size: $h7;
+  color: $text-primary;
+  white-space: pre-wrap;
+  text-indent: 16px;
+  min-height: 60px;
+}
+
+.lg-modal__footer {
+  // background: $bg-third;
+  // border-top: 1px solid $border-primary;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: $h7;
+  padding: 16px 8px;
+  text-align: right;
+  
+
+  .button {
+    // background: $bg-primary;
+    // color: $text-third;
+    margin: 0 8px;
+    min-width: 80px;
+  }
+}

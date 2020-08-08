@@ -1,0 +1,115 @@
+.lg-feedback-container {
+  width: 100%;
+  min-height: calc(100vh - 72px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lg-feedback-modal {
+  padding: 36px;
+
+  .modal-dialog-centered {
+    max-width: 640px;
+  }
+
+  .modal-header {
+    position: absolute;
+    width: 100%;
+    border: none;
+  }
+
+  button, button:active, button:focus {
+    outline: none;
+  }
+}
+
+.lg-feedback-ask, .lg-feedback-thank {
+  padding: 48px 36px 36px 36px;
+  text-align: left;
+
+  h2 {
+    color: #04b2fb;
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+
+  .lg-footer {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    button {
+      margin: 0px 16px;
+    } 
+  }
+}
+
+.lg-feedback-survey {
+  padding: 48px 36px 36px 36px;
+  border: 1px solid rgba(0, 0, 0, .3);
+  text-align: left;
+  max-width: 600px;
+  width: 100%;
+
+  h2 {
+    color: #04b2fb;
+    font-size: 24px;
+    margin-bottom: 27px;
+    text-align: center;
+  }
+
+  .lg-footer {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    button {
+      margin: 0px 16px;
+    } 
+  }
+
+  .lg-form-item {
+    margin-bottom: 24px;
+  }
+
+  label {
+    font-weight: 500;
+  }
+  
+  select {
+    display: inline-block;
+    height: 36px;
+    text-indent: 16px;
+    width: 100%;
+    border: 2px solid #cacfd6;
+    outline: none;
+    color: #666666;
+    font-weight: 500;
+
+    &:active, &:focus {
+      border: 2px solid #04b2fb;
+    }
+  }
+
+  textarea {
+    width: 100%;
+    border: 2px solid #cacfd6;
+    border-radius: 4px;
+    padding: 4px 8px;
+
+    &:active, &:focus {
+      border: 2px solid #04b2fb;
+      outline: none;
+    }
+  }
+}
+
+.lg-feedback-thank {
+  h2 {
+    text-align: center;
+    font-size: 24px;
+  } 
+}

@@ -1,0 +1,81 @@
+$hover-icon-size: 32px;
+$hiding-time: 0.8s;
+
+.program {
+  display: flex;
+  flex-direction: column;
+
+  .sider {
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    width: $sider-width;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    background: $bg-secondary;
+    transition: margin-left $hiding-time;
+    margin-left: -$sider-width;
+    z-index: 30;
+
+    .hover-icon {
+      background: $bg-primary;
+      color: $bg-secondary;
+      cursor: pointer;
+      position: absolute;
+      font-size: $h0;
+      width: $hover-icon-size;
+      height: $hover-icon-size;
+      border-radius: 50%;
+      right: -($hover-icon-size / 2);
+      top: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all $hiding-time;
+
+      &:hover {
+        background: $bg-secondary;
+        color: $bg-primary;
+        right: -$hover-icon-size;
+      }
+
+      &.reverse { 
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .content {
+    margin-left: 0;
+    transition: margin-left $hiding-time;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    // min-height: calc(100vh - $header-height);
+    // background: rgba($bg-fourth, 0.3);
+  }
+
+  &.with-sider {
+    .sider {
+      margin-left: 0;
+
+      .hover-icon:hover {
+        right: -($hover-icon-size / 2);
+      }
+    }
+
+    .content {
+      margin-left: $sider-width; 
+    }
+  }
+
+  @media screen and (max-width: 678px) {
+    .content {
+      padding: 0;
+    }
+  }
+}

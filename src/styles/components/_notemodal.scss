@@ -1,0 +1,56 @@
+.note-modal {
+  text-align: left;
+  max-width: 600px !important;
+
+  .header {
+    padding: 10px 24px;
+    font-size: $h4;
+    color: $text-third;
+    border-bottom: 2px solid $border-third;
+    position: relative;
+
+    .close-button {
+      position: absolute;
+      right: 12px;
+      top: 12px;
+      font-size: $h6;
+      cursor: pointer;
+
+      &:hover {
+        text-shadow: 2px 2px 6px rgba($border-primary, .3);
+      }
+
+      &:active {
+        text-shadow: none;
+      }
+    }
+  }
+
+  .body {
+    padding: 12px 24px;
+    font-size: $h7;
+    color: $text-fifth;
+    // white-space: pre-wrap;
+    white-space: pre-line;
+    // text-indent: 16px;
+
+    ul, ol {
+      margin-left: 16px;
+      padding: 2px;
+    }
+  }
+
+  .footer {
+    background: $bg-third;
+    font-size: $h7;
+    padding: 8px 16px;
+    text-align: right;
+
+    .button {
+      background: $bg-primary;
+      color: $text-third;
+      padding: 2px 12px;
+      min-width: 80px;
+    }
+  }
+}

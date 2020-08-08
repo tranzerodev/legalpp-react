@@ -1,0 +1,222 @@
+.inputbox {
+  background: $bg-primary;
+  // box-shadow: 0px 0px 6px rgba(0, 0, 0, .3);
+  border: 1px solid rgba(0, 0, 0, .3);
+  display: inline-block;
+  padding: 24px;
+
+  .inputbox__title {
+    box-sizing: content-box;
+    color: $text-fourth;
+    font-size: $h3;
+    font-weight: $bold;
+    text-align: center;
+    padding: 8px 24px;
+    width: $input-width;
+  }
+
+  .progress-container {
+    padding: 8px 24px;
+
+    * {
+      transition: width 1s;
+    }
+
+    .progress {
+      height: 8px;
+
+      .progress-bar {
+        background: #79c244;
+      }
+    }
+  }
+
+  .main-container {
+    padding: 8px 24px;
+
+    .question {
+      font-size: $h4;
+      font-weight: $medium;
+      color: $text-primary;
+      width: $input-width;
+      position: relative;
+      white-space: pre-line;
+      text-align: justify;
+
+      small {
+        // display: block;
+        // line-height: 125%;
+        // margin-left: 16px;
+        margin-top: 8px;
+        font-size: 14px;
+      }
+
+      .note-icon-global {
+        // position: absolute;
+        right: -36px;
+        top: 3px;
+        color: $text-third;
+        margin-left: 8px;
+        font-size: 24px;
+        vertical-align: middle;
+        cursor: pointer;
+
+        &:hover {
+          text-shadow: 0 0 5px rgba($text-third, .5);
+        }
+      }
+    }
+
+    >.description {
+      font-size: 14px;
+
+      ol {
+        margin: 0;
+        li {
+          text-indent: 8px;
+        }
+      }
+    }
+
+    .kind-instruction {
+      padding: 4px 1px;
+      font-size: $h6;
+      font-weight: $medium;
+    }
+
+    .description {
+      padding: 4px;
+      white-space: pre-wrap;
+      // text-indent: 20px;
+      text-align: justify;
+      font-size: $h7;
+      font-weight: $regular;
+      width: $input-width;
+    }
+
+    .answers {
+      padding: 0 0 16px 0;
+
+      select.answer.input {
+        height: 42px;
+      }
+
+      .answer {
+        position: relative;
+        margin: 8px 0;
+        padding: 8px 32px 8px 52px;
+        width: $input-width;
+        background: $bg-primary;
+        background-position: 10px center;
+        border: 2px solid $border-third;
+        border-radius: 6px;
+        font-size: $h6;
+        // line-height: normal;
+        line-height: 22px;
+        // font-weight: $medium;
+        color: $text-primary;
+        cursor: pointer;
+        word-wrap: break-word;
+        display: block;
+
+        &:first-of-type {
+          margin-top: 24px;
+        }
+
+        &.input {
+          width: $input-width;
+          padding: 8px 12px;
+          &:focus {
+            outline:none;
+          }
+          
+          &:hover, &:active, &:focus {
+            border-color: $border-primary;
+          }
+
+          &::placeholder {
+            font-size: $h7;
+            font-weight: $regular;
+          }
+        }
+
+        &.option {
+          &:hover {
+            background: $bg-fifth;
+            background-position: 10px center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .5)
+          }
+
+          &.selected {
+            background-color: $bg-secondary;
+            background-repeat: no-repeat;
+            background-image: url('../assets/images/green_check.png');
+            color: $text-secondary;
+          }
+        }
+
+        i {
+          font-size: $h4;
+          line-height: $h4;
+          position: absolute;
+          right: 8px;
+        }
+
+        & > .input {
+          color: $text-primary;
+          outline: none;
+          margin-left: 16px;
+          margin-top: -12px;
+          padding: 0 8px;
+        }
+
+        .note-icon {
+          cursor: pointer;
+
+          &:hover {
+            text-shadow: 0 0 8px $border-secondary;
+          }
+        }
+      }
+    }
+  }
+
+  .buttons {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+  }
+
+  @media (max-width: 678px) {
+    border: none;
+    padding: 24px 8px;
+    width: 100%;
+
+    .inputbox__title {
+      width: unset;
+    }
+
+    .main-container {
+      .question {
+        width: unset;
+      }
+
+      .description {
+        width: unset;
+      }
+
+      .answers {
+        .answer {
+          width: unset;
+
+          &.input {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

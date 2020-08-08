@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-direction: column;
+
+  .main-content {
+    margin-top: $header-height;
+  }
+}
+
+.app-home {
+  .app {
+    .main-content {
+      margin-top: 0;
+    }
+  }
+}
+.app-transform {
+  .app {
+    .main-content {
+      margin-top: 0;
+    }
+  }
+}

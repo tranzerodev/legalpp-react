@@ -1,0 +1,130 @@
+.signin, .signup, .forgotpassword {
+  background: $bg-primary;
+  // box-shadow: 0 0 4px rgba(0, 0, 0, .1);
+  border: 1px solid rgba(0, 0, 0, .3);
+  max-width: 400px;
+  min-width: 384px;
+  margin: 12px 8px;
+  padding: 16px 40px;
+  text-align: center;
+  position: relative;
+  color: $text-sixth;
+
+  .auth__header {
+    text-align: center;
+    margin-top: 8px;
+
+    .title {
+      font-size: $h2;
+      font-weight: $bold;
+      padding: 16px 0;
+    }
+
+    .description {
+      font-size: $h6;
+      font-weight: $regular;
+      margin-bottom: 2px; 
+    }
+  }
+
+  .auth__inputs {
+    padding: 24px 0 0 0;
+    text-align: left;
+
+    .form-group {
+      margin-bottom: 8px;
+    }
+
+    .label {
+      color: #666;
+      font-size: 16px;
+      font-weight: $medium;
+      margin: 3px;
+    }
+
+    .input {
+      border: 1px solid $border-third;
+      border-radius: 4px;
+      font-size: $h7;
+      font-weight: $medium;
+
+      &::placeholder {
+        font-size: $h8;
+        font-weight: $regular;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .link {
+      color: $text-third;
+      font-size: $h7;
+      font-weight: $medium;
+    }
+  }
+
+  .auth__buttons {
+    border-bottom: 2px solid $border-third;
+    padding: 0 0 16px 0;
+
+    .button {
+      margin-top: 4px;
+    }
+
+    .social-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 4px;
+      border-top: 2 solid $border-third;
+
+      > span { // for facebook button
+        width: 49%;
+      }
+
+      .google-button, .facebook-button {
+        width: 49%;
+        font-size: $h7;
+
+        i {
+          margin-top: 3px;
+          float: left;
+        }
+      }
+
+      .facebook-button {
+        background: #3B5998;
+        width: 100%;
+
+        &:hover {
+          background: rgba(#3B5998, 0.8)
+        }
+      }
+
+      .google-button {
+        background-color: #DD4B39;
+
+        &:hover {
+          background: rgba(#DD4B39, 0.8)
+        } 
+      }
+    }
+
+    .link-page {
+      color: $text-third;
+      font-size: $h7;
+      font-weight: $medium;
+    }
+  }
+
+  .auth__policy-text {
+    display: inline-block;
+    color: #808080;
+    font-size: 12px;
+    font-weight: $regular;
+    margin: 8px 0;
+    margin-bottom: 8px;
+    position: static;
+  }
+}
